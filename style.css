@@ -5,7 +5,7 @@
     box-sizing: border-box;
   }
   body{
-    background-color: #b6c1dd;
+    background-color: #c4d5ff;
   }
 .contato{
     background-color: #3B9AD7;
@@ -129,4 +129,18 @@
     justify-content: center;
     align-items: center;
     transition-duration: 1s;
+}
+
+#news{
+    max-width: 55%;
+    margin: auto;
+}
+#news h1{
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    font-size: 42px;
+    padding: 1rem;
+    color: #363563;
+    margin: 1rem;
 }
