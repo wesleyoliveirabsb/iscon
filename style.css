@@ -2,6 +2,10 @@
     margin:0;
     padding:0 ;
     font-family: 'Lato', sans-serif;
+    box-sizing: border-box;
+  }
+  body{
+    background-color: #b6c1dd;
   }
 .contato{
     background-color: #3B9AD7;
@@ -60,13 +64,69 @@
     font-size: 42px;
     letter-spacing: 2px;
     text-transform: uppercase;
+    padding: 1rem 0 1rem 0;
 }
 
 #presentation p{
     letter-spacing: 0.5px;
+    padding: 0 0 1rem 0;
 }
 
 #presentation div{
     width: 45%;
     margin-left: 20rem;
+}
+
+#featureTrain{
+    margin: auto;
+    color: white;
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-wrap: nowrap;
+    list-style: none;
+}
+#featureTrain h1{
+    padding: 1rem;
+}
+
+#card1{
+    height: 25rem;
+    padding: 2rem;
+    width: 30rem;
+    display:flex;
+    background-color: #737495;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    clear:both;
+    transition-duration: 1s;
+}
+
+#card2{
+    height: 25rem;
+    line-height: 1.42rem;
+    padding: 2rem;
+    display:flex;
+    width: 30rem;
+    background-color: #68A8AD;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    transition-duration: 1s;
+}
+#card3{
+    height: 25rem;
+    padding: 2rem;
+    width:30rem;
+    display:flex;
+    background-color: #6C8672;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    transition-duration: 1s;
 }
