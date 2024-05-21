@@ -144,3 +144,128 @@
     color: #363563;
     margin: 1rem;
 }
+
+#subMenu{
+    color: white;
+    width: 90%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 7rem auto 7rem auto;
+    
+}
+.btnSub{
+    color: white;
+    background-color: #3B9AD7;
+    text-decoration: none;
+    padding: 0.5rem;
+    border: none;
+    width: 50%;
+    margin: auto;
+    margin-top:1rem;
+    display: block;
+    font-weight: 600;
+    font-size: 18px;
+}
+#sub1{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    padding: 1rem;
+    width: 20rem;
+    height: 20rem;
+    background: linear-gradient(rgba(0,0,0,.5), rgba(0,0,0,.5)),
+    url(https://cbk.com.br/wp-content/uploads/2022/10/diploma-digital-como-emitir-1.png); 
+    background-size: cover;
+}   
+
+#subDesc1{
+    padding: 1rem;
+    line-height: 1.5rem;
+    text-align: center;
+    width: 20rem;
+    height: 20rem;
+    display: none;
+    flex-wrap: wrap;
+}
+#sub1 #subTitle1{
+    display: inline-block;
+    vertical-align: center;
+}
+#sub2{
+    padding: 1rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+    width: 20rem;
+    height: 20rem;
+    background: linear-gradient(rgba(0,0,0,.5), rgba(0,0,0,.5)),
+    url(https://iscon.edu.br/wp-content/uploads/2023/11/CPA.png); 
+    background-size: cover;
+}
+#subDesc2{
+    padding: 1rem;
+    line-height: 1.5rem;
+    text-align: center;
+    width: 20rem;
+    height: 20rem;
+    display: none;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+}
+
+#sub3{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+    padding: 1rem;
+    width: 20rem;
+    height: 20rem;
+    background: linear-gradient(rgba(0,0,0,.5), rgba(0,0,0,.5)),
+    url(https://iscon.edu.br/wp-content/uploads/2023/05/Design-sem-nome.jpg); 
+    background-size: cover;
+}
+#subDesc3{
+    line-height: 1.5rem;
+    text-align: center;
+    width: 20rem;
+    height: 20rem;
+    display: none;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+    flex-wrap: wrap;
+}
+#sub4{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+    padding: 1rem;
+    text-align: center;
+    width: 20rem;
+    height: 20rem;
+    background: linear-gradient(rgba(0,0,0,.5), rgba(0,0,0,.5)),
+    url(https://img.freepik.com/fotos-gratis/mulher-em-um-arte-exposicao_53876-14379.jpg?size=626&ext=jpg&ga=GA1.1.44546679.1715731200&semt=sphg); 
+    background-size: cover;
+}
+
+#subDesc4{
+    line-height: 1.5rem;
+    text-align: center;
+    width: 20rem;
+    height: 20rem;
+    display: none;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+}
