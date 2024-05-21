@@ -37,8 +37,9 @@ a:visited{
     text-decoration: none;
     display: block;
   }
+    #dropdown:hover li{background-color: #21577A;}
 
-    #dropdown:hover  #dropdownContent {display: block;}
+    #dropdown:hover  #dropdownContent {display: block; } 
 
     #dropdownContent a:hover {background-color: #21577A;}
 
